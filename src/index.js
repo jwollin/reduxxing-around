@@ -16,7 +16,7 @@ export function reducer(state = initialState, action) {
     case 'INCREMENT':
       return { ...state, ...state.count++ };
     case 'DECREMENT':
-      return state.count - 1;
+      return { ...state, ...state.count-- };
     default:
       return state;
   }
