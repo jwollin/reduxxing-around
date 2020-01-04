@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31d2dabe-7498-4a21-92ef-39e028eceb0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/counter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/utils.misc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/counter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +19,11 @@
     </execution>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UuJ55J4AlGmmtXToCCwrnz2pkN" />
@@ -87,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576200360340</updated>
       <workItem from="1576200361755" duration="4526000" />
-      <workItem from="1578102404606" duration="4375000" />
+      <workItem from="1578102404606" duration="7348000" />
     </task>
     <servers />
   </component>

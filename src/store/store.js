@@ -3,14 +3,14 @@ export const initialState = {
 };
 
 export function reducer(state = initialState, action) {
-  const { count } = state;
+  console.log("STATE IS: ", state);
 
   switch (action.type) {
     case 'INCREMENT':
-      return count + 1;
+      return { ...state.count + 1 };
     case 'DECREMENT':
-      return count - 1;
+      return state.count - 1;
     default:
-      return count;
+      return state;
   }
 }

@@ -2,12 +2,25 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { createStore } from 'redux'
 import { Provider } from 'react-redux';
-import { reducer } from "./store/store";
-
-import { App } from './App';
+import App from './App';
 
 import './index.css';
 import * as serviceWorker from './serviceWorker';
+
+export const initialState = {
+  count: 0
+};
+
+export function reducer(state = initialState, action) {
+  switch (action.type) {
+    case 'INCREMENT':
+      return { count: +1 };
+    case 'DECREMENT':
+      return state.count - 1;
+    default:
+      return state;
+  }
+}
 
 const store = createStore(reducer);
 
