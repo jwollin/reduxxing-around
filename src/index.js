@@ -14,7 +14,7 @@ export const initialState = {
 export function reducer(state = initialState, action) {
   switch (action.type) {
     case 'INCREMENT':
-      return { count: +1 };
+      return { ...state, ...state.count++ };
     case 'DECREMENT':
       return state.count - 1;
     default:
