@@ -1,8 +1,13 @@
 import React from 'react';
+import { connect } from 'react-redux'
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+export function App(state, store) {
+
+  console.log('STORE: ', store)
+  console.log('STATE : ', state)
+
   return (
     <div className="App">
       <header className="App-header">
@@ -23,4 +28,4 @@ function App() {
   );
 }
 
-export default App;
+export default connect()(App);
