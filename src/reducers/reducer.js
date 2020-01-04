@@ -1,15 +1,14 @@
-const initialState = {
+export const initialState = {
   events: []
-}
+};
 
 export function reducer(state = initialState, action) {
-  switch(action.type) {
-    case 'ADD_EVENT': {
-      return [...state.events, state.event]
-    }
-
-    default: {
+  switch (action.type) {
+    case 'INCREMENT':
+      return state + 1;
+    case 'DECREMENT':
+      return state - 1;
+    default:
       return state
-    }
   }
 }

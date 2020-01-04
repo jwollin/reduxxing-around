@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31d2dabe-7498-4a21-92ef-39e028eceb0a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/utils.misc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576200360340</updated>
       <workItem from="1576200361755" duration="4526000" />
-      <workItem from="1578102404606" duration="1831000" />
+      <workItem from="1578102404606" duration="4375000" />
     </task>
     <servers />
   </component>
@@ -93,5 +99,9 @@
       <screen x="0" y="23" width="1280" height="710" />
     </state>
     <state x="124" y="23" width="982" height="710" key="SettingsEditor/0.23.1280.710@0.23.1280.710" timestamp="1577147907026" />
+    <state x="340" y="56" width="670" height="676" key="search.everywhere.popup" timestamp="1578156957216">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state x="340" y="56" width="670" height="676" key="search.everywhere.popup/0.23.1280.709@0.23.1280.709" timestamp="1578156957216" />
   </component>
 </project>

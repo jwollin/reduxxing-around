@@ -1,0 +1,1 @@
+export const gebi = (id) => { return document.getElementById(id) };
